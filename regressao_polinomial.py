@@ -31,7 +31,8 @@ print("------------Regressão Polinomial pelo método polyfit--------------")
 
 ##yp = np.polyval([a,b,c],amburana["Mes"])
 
-#(a,b,c) = np.polyfit(amburana['Mes'],amburana[parametro],3)
+(a,b,c,d,e,f,g,h,i,j) = np.polyfit(amburana['Mes'],amburana[parametro],9)
+print ("Equação: y = {0}x^9 + {1}x^8 + {2}x^7 + {3}x^6 + {4}x^5 + {5}x^4 + {6}x^3 + {7}x^2 + {8}x + {9}".format(a,b,c,d,e,f,g,h,i,j))
 
 #grau = input('Informe o grau do polinomio: ')
 
